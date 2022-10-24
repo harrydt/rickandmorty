@@ -1,3 +1,6 @@
+mod domain;
+mod repository;
+
 // use std::collections::HashMap;
 use clap::{Parser, ValueEnum};
 use core::fmt;
