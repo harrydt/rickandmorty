@@ -81,6 +81,7 @@ mod tests {
 
     #[test]
     fn test_construct_url_get_all_character() -> Result<(), CustomError> {
+        // some table-testing would probably be useful here
         let args = Cli {
             resource: Resource::Character,
             operation: Operation::GetAll,
